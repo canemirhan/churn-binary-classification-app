@@ -6,7 +6,7 @@ import streamlit as st
 from utils import FeatureEngineeringUtil
 
 # Loading base dataframe and model
-df = pd.read_csv("before_fteng_data.csv",index_col=0)
+df = pd.read_csv("before_fteng_data.csv",index_col=0,nrows=5000)
 model = cPickle.load(open("xgbc_model.pkl","rb"))
 
 def prediction(base_df:pd.DataFrame,user:pd.DataFrame,model):
