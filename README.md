@@ -7,8 +7,7 @@ In this project, we are trying to classify customer churn either "exited" or "no
   - [Project Structure](#project-structure)
   - [Streamlit Application](#streamlit-application)
     - [Installation](#installation)
-  - [Contribution](#contribution)
-  - [Acknowledgments](#acknowledgments)
+  - [Contributing](#contributing)
 
 ## Dataset
 The dataset `data.csv` used for this project was taken from kaggle competition called "Binary Classification with a Bank Churn Dataset". If you want to get more details about the dataset, you can check [this link](https://www.kaggle.com/competitions/playground-series-s4e1/data).
@@ -46,7 +45,6 @@ Finally, access the application through your web browser at `http://localhost:85
 
 
 ## Contributing
-
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on this project.
 
 
